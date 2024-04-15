@@ -11,7 +11,11 @@
     "moduleDetection": "force",
     "isolatedModules": true,
     "jsx": "preserve",
-    "incremental": true
+    "incremental": true,
+    // "moduleResolution": "nodenext",
+    // "paths": {
+    //   "@lottiefiles/react-lottie-player": ["node_modules/@lottiefiles/react-lottie-player"]
+    // }
   },
   "include": ["**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]
