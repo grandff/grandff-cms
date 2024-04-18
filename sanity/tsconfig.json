@@ -7,15 +7,12 @@
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
-    "module": "Preserve",
+    "module": "esnext",
     "moduleDetection": "force",
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
-    // "moduleResolution": "nodenext",
-    // "paths": {
-    //   "@lottiefiles/react-lottie-player": ["node_modules/@lottiefiles/react-lottie-player"]
-    // }
+    "moduleResolution" : "node"
   },
   "include": ["**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]

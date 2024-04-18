@@ -1,10 +1,10 @@
+// src/components/CustomLottiePlayer.tsx
 /* eslint-disable react/prop-types */
 import {getFile} from '@sanity/asset-utils'
 import {Stack} from '@sanity/ui'
 import {ComponentType} from 'react'
 import {type FileValue, type ObjectInputProps, type ObjectSchemaType} from 'sanity'
 import {Controls, Player} from '@lottiefiles/react-lottie-player'
-
 export const CustomLottiePlayerInput: ComponentType<
   ObjectInputProps<FileValue, ObjectSchemaType>
 > = (props) => {

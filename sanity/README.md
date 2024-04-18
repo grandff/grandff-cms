@@ -1,13 +1,10 @@
 # Sanity Clean Content Studio
 
-## 명령어
-
-```groq
-
+## Query
+```bash
 // document type이 lottie인 데이터를 모두 가져옵니다.
 *[_type == "lottie"]
 
-// 특정 컬럼만 가져오기 가능
 *[_type == "lottie"] {
   title,
   description,
@@ -33,9 +30,6 @@
   }
 }
 ```
-
-- [스키마에 대한 자세한 설명](https://www.sanity.io/docs/schema-types)
-
 
 Congratulations, you have now installed the Sanity Content Studio, an open source real-time content editing environment connected to the Sanity backend.
 
