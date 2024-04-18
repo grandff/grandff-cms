@@ -21,8 +21,8 @@ export const font = defineType({
         type: "file",
         description: "폰트 파일을 올려주세요.",
         options: {
-          accept: ".ttf, .otf",
-        },
+          accept: ".ttf, .otf, .zip",
+        },        
         validation: (Rule) => Rule.assetRequired(),
       }),
     ],

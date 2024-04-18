@@ -1,5 +1,9 @@
 # Sanity Clean Content Studio
 
+## 배포 방법
+1. yarn build 실행
+2. clodu flare pages에서 dist 폴더 업로드
+
 ## Query
 ```bash
 // document type이 lottie인 데이터를 모두 가져옵니다.

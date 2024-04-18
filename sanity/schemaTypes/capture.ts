@@ -21,7 +21,7 @@ export const capture = defineType({
         type: "file",
         description: "캡처화면 파일을 올려주세요.",
         options: {
-          accept: ".png, .jpg, .jpeg",
+          accept: ".png, .jpg, .jpeg,.zip",
         },
         validation: (Rule) => Rule.assetRequired(),
       }),
